@@ -56,7 +56,7 @@ var RedditFeed = (function($) {
     */
     function render($element, data) {
         var threads = data.data.children,
-            output = '',
+            output = '<a name="redditThreadTop"></a>',
             i;
 
         for(i=0; i<threads.length; i++) {

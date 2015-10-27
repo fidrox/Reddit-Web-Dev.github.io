@@ -38,6 +38,8 @@ function initPage() {
         $this.addClass('active');
 
         RedditFeed.fetchNewPosts($redditFeed, $this.text(), 5);
+
+        location.href = '#redditThreadTop';
     });
 }
 
